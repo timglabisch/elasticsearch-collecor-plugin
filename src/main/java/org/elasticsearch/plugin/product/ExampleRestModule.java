@@ -7,4 +7,6 @@ public class ExampleRestModule extends AbstractModule {
     protected void configure() {
         bind(HelloRestHandler.class).asEagerSingleton();
     }
+
+
 }
